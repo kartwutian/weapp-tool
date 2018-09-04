@@ -1,0 +1,27 @@
+{
+  "name": "weapp-tool",
+  "version": "1.0.0",
+  "description": "微信小程序开发脚手架",
+  "main": "index.js",
+  "scripts": {
+    "init": "gulp init",
+    "clean": "gulp clean:dist",
+    "build": "gulp build",
+    "serve": "gulp serve"
+  },
+  "keywords": [
+    "小程序"
+  ],
+  "author": "bhz",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-header": "^2.0.5",
+    "gulp-less": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-stylus": "^2.7.0"
+  }
+}
